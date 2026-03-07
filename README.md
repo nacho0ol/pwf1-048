@@ -71,6 +71,13 @@ Hasil jadi:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dcffcb33-5561-4705-b587-a67606d84936" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67373935-b2c2-40ea-8a72-e9aaced5a277" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9054394-8091-450f-b658-c31730ecac1b" />
+praktikum 3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/df959ef3-5a16-4a67-8c6e-68dbeaf92bf6" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1b1c113-1da5-479f-9f0b-878e98872197" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a816fcb5-ed83-4646-bbd2-9180cade7ac9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/39dc89ee-0b0b-4027-a6f6-5bc0ac1e0b92" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca735a62-4310-4ed2-975f-8396d76f6161" />
+
 
 
 
