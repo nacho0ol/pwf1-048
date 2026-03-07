@@ -71,6 +71,16 @@ Hasil jadi:
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/dcffcb33-5561-4705-b587-a67606d84936" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67373935-b2c2-40ea-8a72-e9aaced5a277" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f9054394-8091-450f-b658-c31730ecac1b" />
+praktikum 3
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a816fcb5-ed83-4646-bbd2-9180cade7ac9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/39dc89ee-0b0b-4027-a6f6-5bc0ac1e0b92" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a651254e-043c-4987-88af-c90e80d1e729" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/92e91778-0558-4885-904d-d2e3f02ec6eb" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ca735a62-4310-4ed2-975f-8396d76f6161" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40eb1aec-8dc0-4b65-a988-56c1a23d4204" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4202a5a6-652b-4295-860b-89414c27278f" />
+
+
 
 
 
