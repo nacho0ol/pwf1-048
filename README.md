@@ -80,6 +80,14 @@ praktikum 3
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/40eb1aec-8dc0-4b65-a988-56c1a23d4204" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4202a5a6-652b-4295-860b-89414c27278f" />
 
+praktikum 4
+<img width="1920" height="1080" alt="Screenshot (1015)" src="https://github.com/user-attachments/assets/bbaa916c-aa2b-4300-a2e1-d7e6678e889c" />
+
+praktikum 5
+<img width="1920" height="1080" alt="Screenshot (1022)" src="https://github.com/user-attachments/assets/f6330bbc-d46a-4d91-bfb5-cf1f274d7270" />
+
+
+
 
 
 
