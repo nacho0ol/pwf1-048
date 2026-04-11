@@ -39,12 +39,18 @@
                                 <td class="py-3 px-4">Rp {{ number_format($product->price, 0, ',', '.') }}</td>
                                 <td class="py-3 px-4 text-center flex justify-center space-x-2">
                                     <a href="{{ route('product.show', $product->id) }}" class="text-blue-500 hover:text-blue-700">View</a>
+                                    
+                                    @can('update', $product)
                                     <a href="{{ route('product.edit', $product->id) }}" class="text-yellow-500 hover:text-yellow-700">Edit</a>
+                                    @endcan
+
+                                    @can('delete', $product)
                                     <form action="{{ route('product.delete', $product->id) }}" method="POST" onsubmit="return confirm('Yakin ingin menghapus?');">
                                         @csrf
                                         @method('DELETE')
                                         <button type="submit" class="text-red-500 hover:text-red-700">Delete</button>
                                     </form>
+                                    @endcan
                                 </td>
                             </tr>
                             @empty

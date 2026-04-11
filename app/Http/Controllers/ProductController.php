@@ -43,6 +43,7 @@ class ProductController extends Controller
     public function update(Request $request, $id)
     {
         $product = Product::findOrFail($id);
+        Gate::authorize('update', $product);
 
         // PERBAIKAN: Ubah 'quantity' menjadi 'qty'
         $validated = $request->validate([
@@ -58,6 +59,7 @@ class ProductController extends Controller
 
     public function edit(Product $product)
     {
+        Gate::authorize('update', $product); // Cek Policy
         $users = User::orderBy('name')->get();
         return view('product.edit', compact('product', 'users'));
     }
@@ -65,6 +67,7 @@ class ProductController extends Controller
     public function delete($id)
     {
         $product = Product::findOrFail($id);
+        Gate::authorize('delete', $product);
         $product->delete();
         return redirect()->route('product.index')->with('success', 'Product berhasil dihapus');
     }
