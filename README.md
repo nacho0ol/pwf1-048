@@ -97,6 +97,12 @@ praktikum 6
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7232bec5-95a0-4111-96f5-e61eaef4455f" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/af29808e-5935-47ab-95d7-a5bc636139fb" />
 
+praktikum 7
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/80b374e6-39f7-4250-ba17-83461cbce531" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c75feee9-c9c2-4a1b-8bbc-20ab21186a65" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ab898971-570d-471d-8466-a93ac93cbbe1" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/941a2f13-c29a-4870-aeaa-d93f4114f5fd" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/779f38aa-7b19-407f-b6cd-ec90a774d37a" />
 
 
 
