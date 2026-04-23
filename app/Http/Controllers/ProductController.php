@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Product;
 use App\Models\User;
 use Illuminate\Http\Request;
+use App\Http\Requests\StoreProductRequest;
+use App\Http\Requests\UpdateProductRequest;
 
 class ProductController extends Controller
 {
@@ -16,15 +18,9 @@ class ProductController extends Controller
 
     public function store(Request $request)
     {
-        // PERBAIKAN: Ubah 'quantity' menjadi 'qty' sesuai database Modul 3
-        $validated = $request->validate([
-            'name' => 'required|string|max:255',
-            'qty' => 'required|integer', 
-            'price' => 'required|numeric',
-            'user_id' => 'required|exists:users,id',
-        ]);
+        $validated = $request->validated();
 
-        $product = Product::create($validated);
+        Product::create($validated);
         return redirect()->route('product.index')->with('success', 'Product created successfully.');
     }
 
@@ -45,13 +41,7 @@ class ProductController extends Controller
         $product = Product::findOrFail($id);
         Gate::authorize('update', $product);
 
-        // PERBAIKAN: Ubah 'quantity' menjadi 'qty'
-        $validated = $request->validate([
-            'name' => 'sometimes|string|max:255',
-            'qty' => 'sometimes|integer',
-            'price' => 'sometimes|numeric',
-            'user_id' => 'sometimes|exists:users,id',
-        ]);
+        $validated = $request->validated();
 
         $product->update($validated);
         return redirect()->route('product.index')->with('success', 'Product updated successfully.');
@@ -59,7 +49,7 @@ class ProductController extends Controller
 
     public function edit(Product $product)
     {
-        Gate::authorize('update', $product); // Cek Policy
+        Gate::authorize('update', $product); 
         $users = User::orderBy('name')->get();
         return view('product.edit', compact('product', 'users'));
     }
