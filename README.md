@@ -104,6 +104,13 @@ praktikum 7
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/941a2f13-c29a-4870-aeaa-d93f4114f5fd" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/779f38aa-7b19-407f-b6cd-ec90a774d37a" />
 
+UCP 1
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/898ad9e7-5d3d-45e5-bc24-15bea3cf89bd" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/23156378-f04a-4b0e-a468-ff00dfd96aea" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cc3d3d73-38eb-4133-947c-4538de76e695" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6dbcf13-c849-491f-897d-52ec063c9d7d" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8660c7af-257f-442f-8465-c6fd1c53c4ca" />
+
 
 
 
