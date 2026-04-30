@@ -16,7 +16,7 @@ class ProductController extends Controller
         return view('product.index', compact('products'));
     }
 
-    public function store(Request $request)
+    public function store(StoreProductRequest $request)
     {
         $validated = $request->validated();
 
@@ -27,7 +27,8 @@ class ProductController extends Controller
     public function create()
     {
         $users = User::orderBy('name')->get();
-        return view('product.create', compact('users'));
+        $categories = \App\Models\Category::orderBy('name')->get(); 
+        return view('product.create', compact('users', 'categories'));
     }
 
     public function show($id)
@@ -36,7 +37,7 @@ class ProductController extends Controller
         return view('product.view', compact('product'));
     }
 
-    public function update(Request $request, $id)
+    public function update(UpdateProductRequest $request, $id)
     {
         $product = Product::findOrFail($id);
         Gate::authorize('update', $product);

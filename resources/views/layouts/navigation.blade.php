@@ -17,9 +17,13 @@
                         {{ __('About') }}
                     </x-nav-link>
 
+                    <!-- Menu Products & Category untuk Desktop (Dilindungi Gate) -->
                     @can('manage-product')
                     <x-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                         {{ __('Products') }}
+                    </x-nav-link>
+                    <x-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                        {{ __('Category') }}
                     </x-nav-link>
                     @endcan
                 </div>
@@ -78,9 +82,13 @@
                 {{ __('About') }}
             </x-responsive-nav-link>
 
+            <!-- Menu Products & Category untuk Mobile (Dilindungi Gate) -->
             @can('manage-product')
             <x-responsive-nav-link :href="route('product.index')" :active="request()->routeIs('product.*')">
                 {{ __('Products') }}
+            </x-responsive-nav-link>
+            <x-responsive-nav-link :href="route('category.index')" :active="request()->routeIs('category.*')">
+                {{ __('Category') }}
             </x-responsive-nav-link>
             @endcan
         </div>

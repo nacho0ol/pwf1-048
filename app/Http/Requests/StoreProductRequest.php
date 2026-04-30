@@ -15,9 +15,10 @@ class StoreProductRequest extends FormRequest
     {
         return [
             'name' => 'required|string|max:255',
-            'qty' => 'required|integer', // SUDAH DIPERBAIKI JADI qty
+            'qty' => 'required|integer', 
             'price' => 'required|numeric',
             'user_id' => 'required|exists:users,id',
+            'category_id' => 'required|exists:category,id',
         ];
     }
 
@@ -31,6 +32,9 @@ class StoreProductRequest extends FormRequest
             'price.required' => 'Harga produk wajib diisi.',
             'price.numeric' => 'Harga produk harus berupa angka yang valid.',
             'user_id.required' => 'Pemilik produk wajib dipilih.',
+
+            'category_id.required' => 'Kategori produk wajib dipilih.',
+            'category_id.exists' => 'Kategori yang dipilih tidak valid atau tidak ada di database.',
         ];
     }
 }
