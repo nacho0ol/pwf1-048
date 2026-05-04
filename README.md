@@ -111,6 +111,11 @@ UCP 1
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a6dbcf13-c849-491f-897d-52ec063c9d7d" />
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/8660c7af-257f-442f-8465-c6fd1c53c4ca" />
 
+pertemuan 9
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a8bb2975-5cc8-44f3-8adf-489311a4782e" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/67f09616-86c4-4b65-9d1e-fe5abe4574d9" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/258b5a9c-0628-4fd9-9007-24eafae49018" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/b538dcad-6bdc-45e2-b4b4-547c1ad571ed" />
 
 
 
